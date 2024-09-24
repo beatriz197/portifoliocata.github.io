@@ -1,0 +1,187 @@
+* {
+    MARGIN: 0;
+    PADDING: 0;
+    BOX-SIZING: BORDER-BOX;
+}
+BODY{
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    LINE-HEIGHT: 1.6;
+    BACKGROUND: #91c4e5;
+}
+HEADER{
+    BACKGROUND: #000000;
+    COLOR:#FFF;
+    PADDING: 1REM 0;
+    TEXT-ALIGN: CENTER;
+}
+HEADER H1{
+    MARGIN-BOTTOM: 0.5REM; 
+}
+NAR UL {
+    LIST-STYLE: NONE;
+    PADDING: 0;
+}
+NAV UL LI{
+    DISPLAY: INLINE;
+    MARGIN: 0 10PX;
+}
+NAV UL LI A{
+    COLOR: #FFF;
+    text-decoration: NONE;
+    transition: COLOR 0.3S EASE;
+}
+NAV UL LI A:HOVER{
+    COLOR: rgb(97, 181, 236);
+    CURSOR: POINTER;
+}
+SECTION{
+    PADDING: 2REM;
+    MARGIN: 1REM;
+    BACKGROUND: #ffF;
+    BORDER-RADIUS: 8PX;
+    BOX-SHADOW: 0 4PX 8PX BLACK;
+}
+.container{
+    MAX-WIDTH: 800PX;
+    MARGIN: 0 AUTO;
+}
+H2{
+    MARGIN-BOTTOM: 1REM;
+}
+.sobre-mim{
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+    GAP: 1REM;
+}
+.FOTO-PERFIL{
+    WIDTH: 120PX;
+    HEIGHT: 120PX;
+    BORDER-RADIUS: 50%;
+    OBJECT-FIT: COVER;
+    BORDER: 4PX SOLID rgb(129, 195, 240);
+}
+.sobre-informacoes{
+    flex: 1;
+}
+.sobre-informacoes h2{
+    margin-bottom: 0.5rem;
+}
+.sobre-informacoes p{
+    font-size: 1rem;
+    color: #69ccfa
+}
+.card{
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0,3s ease, box shadow 0.3 ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px black;
+}
+
+.sobre-mim{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+.foto-perfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(19, 19, 20);
+}
+.sobre-informacoes {
+       flex:1;
+}
+.sobre-informacoes h2 {
+       margin-bottom: 0.5rem
+}            
+.sobre-informacoes p {
+    font-size: 1rem;
+    color: #70c1da;
+}
+/*projetos*/
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(17, 16, 16);
+    transition: transform 0,3s ease, box-shadow 0.3 ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px black;
+
+}
+
+/*Hobbies*/
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hobby {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px black;
+    gap: 1rem;
+}
+.hobby i {
+    font-size: 2rem;
+    color: #333;
+}
+.hobby h3 {
+    margin-bottom: 0.5rem;
+}
+.hobby p{
+   color: #97d5f1
+}
+/*formulario*/
+form {
+    display: grid;
+    gap: 1rem;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background: #323136;
+    color: #fff;
+    border: nome;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #7eb1e0;
+}
+/*Footer*/
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
